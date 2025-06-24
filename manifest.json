@@ -1,0 +1,90 @@
+{
+  "name": "🦀 Rust Raid System",
+  "short_name": "RustRaid",
+  "description": "Система оповещений для Rust команд",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8B4513",
+  "theme_color": "#8B4513",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ru",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/72x72/8B4513/FFD700?text=🦀",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/96x96/8B4513/FFD700?text=🦀",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/128x128/8B4513/FFD700?text=🦀",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/144x144/8B4513/FFD700?text=🦀",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/152x152/8B4513/FFD700?text=🦀",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/192x192/8B4513/FFD700?text=🦀",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/384x384/8B4513/FFD700?text=🦀",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/8B4513/FFD700?text=🦀",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "utilities", "social"],
+  "shortcuts": [
+    {
+      "name": "🚨 Экстренный рейд",
+      "short_name": "Рейд",
+      "description": "Быстро объявить рейд команде",
+      "url": "/?action=raid",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/192x192/8B4513/FFD700?text=🦀",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "🏴 Создать команду",
+      "short_name": "Команда",
+      "description": "Создать новую команду",
+      "url": "/?action=create",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/192x192/8B4513/FFD700?text=🦀",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
